@@ -1,0 +1,26 @@
+# ボットのトークン設定ファイル
+# {
+#     "token": "{ここにトークン}"
+# }  
+/config/discord_bot.json
+
+# 日・英のユーザーID設定ファイル
+# {
+#     "jp": [
+#         {日本語話者のユーザーID}
+#     ],
+#     "en": [
+#         {英語話者のユーザーID}
+#     ]
+# }
+/config/speakers.json
+
+# Textraのパラメーター設定ファイル
+# {
+#     "name": "{Textraアカウント名}",
+#     "api_key": "{APIキー}",
+#     "api_secret": "{APIシークレットキー}",
+#     "url": "https://mt-auto-minhon-mlt.ucri.jgn-x.jp/api/mt_standard/get/"
+# }
+/config/textra_param.json
+
