@@ -9,6 +9,7 @@ from wrapped_textra import WrappedTextra
 def run_bot(jp_speakers_id: list[int], en_speakers_id: list[int]):
 
     intents = discord.Intents.all()
+    
     bot = discord.Bot(intents=intents)
 
     @bot.event
