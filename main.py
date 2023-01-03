@@ -1,6 +1,7 @@
 
 import os
 import json
+import platform
 from typing import Union    
 from functools import cache
 import discord
@@ -15,8 +16,10 @@ def run_bot(jp_speakers_id: list[int], en_speakers_id: list[int]):
     @bot.event
     async def on_ready():
         """起動メッセージ"""
-        print('on_ready')
-        print(f'version: {discord.__version__}')
+        print(f'{"-"*30}\non_ready: discord_bot_textra')
+        print(f'python_version: {platform.python_version()}')
+        print(f'pycord_version: {discord.__version__}')
+
 
     @bot.listen('on_message')
     async def on_message(message):
